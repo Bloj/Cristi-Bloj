@@ -1,0 +1,326 @@
+<!doctype html>
+<html>
+<head>
+<style>
+	
+#inc{
+		width: 395px;
+		height: 70px;
+		
+		position: absolute;
+		left: 480px;
+		margin-top: -37px;
+		
+	}
+	#butunu{
+	position: absolute;
+	top:9px;
+	left:15px;}
+
+	 #circle {
+    width: 75px;
+    height: 75px;
+ 	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+    background-color: #000000;
+    opacity: 0.2;
+	position:absolute;
+	
+}
+	.cerc {
+		cursor: pointer;
+		   width: 75px;
+    height: 75px;
+ 	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+    background-color: #000000;
+    opacity: 0.2;
+	position:absolute;
+	
+	}
+	
+	 #circle:hover {
+    width: 75px;
+    height: 75px;
+ 	-moz-border-radius: 75px;
+	-webkit-border-radius: 50px;
+	border-radius: 75px;
+    background-color: back;
+    opacity: 0.6;
+    color: #ffffff;
+	}
+	
+    #butdoi{
+	position: absolute;
+	top:9px;
+	left:2px;}
+	
+	 #circle1 {
+    width: 75px;
+    height: 75px;
+ 	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+    background-color: #000000;
+    opacity: 0.2;
+    margin-left: 80px;
+	
+	position:absolute;
+	}
+	
+	 #circle1:hover {
+    width: 75px;
+    height: 75px;
+ 	-moz-border-radius: 75px;
+	-webkit-border-radius: 50px;
+	border-radius: 75px;
+    background-color: back;
+    opacity: 0.6;
+    color: #ffffff;
+	margin-left: 80px;
+	position:absolute;
+	}
+	
+	#buttrei{
+	position: absolute;
+	top:9px;
+	left:12px;}
+	
+	 #circle2 {
+    width: 75px;
+    height: 75px;
+ 	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+    background-color: #000000;
+    opacity: 0.2;
+	margin-left: 160px;
+	position:absolute;
+	
+	
+	}
+	
+	 #circle2:hover {
+    width: 75px;
+    height: 75px;
+ 	-moz-border-radius: 75px;
+	-webkit-border-radius: 50px;
+	border-radius: 75px;
+    background-color: back;
+    opacity: 0.6;
+    color: #ffffff;
+	margin-left: 160px;
+	position:absolute;
+	}	
+	 #titlu{
+		 position:absolute;
+		 margin:0px auto;
+		 }
+		 
+		 
+	 #circle3 {
+    width: 75px;
+    height: 75px;
+ 	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+    background-color: #000000;
+    opacity: 0.2;
+	margin-left: 240px;
+	position:absolute;
+
+	
+	}
+	
+	 #circle3:hover {
+    width: 75px;
+    height: 75px;
+ 	-moz-border-radius: 75px;
+	-webkit-border-radius: 50px;
+	border-radius: 75px;
+    background-color: back;
+    opacity: 0.6;
+    color: #ffffff;
+	margin-left: 240px;
+	position:absolute;
+	}
+	
+	 #circle4 {
+    width: 75px;
+    height: 75px;
+ 	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+    background-color: #000000;
+    opacity: 0.2;
+	margin-left: 320px;
+	position:absolute;
+	
+	}
+
+	 #circle4:hover {
+    width: 75px;
+    height: 75px;
+ 	-moz-border-radius: 75px;
+	-webkit-border-radius: 50px;
+	border-radius: 75px;
+    background-color: back;
+    opacity: 0.6;
+    color: #ffffff;
+	margin-left: 320px;
+	position:absolute;
+	}
+	
+	 #text1 {
+    width: 370px;
+    max-height: 525px;
+ 	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+    background-color: #000000;
+    opacity: 0.2;
+	margin-left:0px;
+	position:absolute;
+	margin-top: -220px;
+	z-index: 2;
+	
+	
+	}
+	
+	
+	 #text1:hover {
+    width: 370px;
+    height: 650px;
+ 	-moz-border-radius: 75px;
+	-webkit-border-radius: 50px;
+	border-radius: 75px;
+    opacity: 0.6;
+    color: #ffffff;
+	margin-left:0px;
+	position:absolute;
+		margin-top: -220px;
+		
+	}
+	
+	#text1:hover #unu {
+		display: block;
+	}
+	
+
+	
+	#titles{
+		background-color: red;
+	}
+
+
+	
+
+	#unu {
+		display: none;
+		cursor: pointer;
+	}
+	img:hover {
+filter: grayscale(100%);
+filter: gray;
+-webkit-filter: grayscale(1);}
+
+#poze1{
+	 transform: rotate(5deg);	
+	 position: absolute; 
+	 margin-top: -200px;
+	 margin-left: -65px;}
+
+#poze2{
+	 transform: rotate(5deg);	
+	 position: absolute; 
+	 margin-top: -50px;
+	 margin-left: 175px;
+}
+
+
+#poze3{
+	 transform: rotate(5deg);	
+	 position: absolute; 
+	 margin-top: 100px;
+	 margin-left: -65px;
+}
+
+.poze:hover{
+	 transform: rotate(5deg);	
+	   filter: grayscale(100%);
+      -webkit-filter: grayscale(1);}
+   
+ pre{font-family: "Century Gothic";}
+ p{font-family:"Century Gothic" }
+body{overflow: hidden;}
+	</style>
+		
+		
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body bgcolor="#cf3w"  >
+
+
+
+
+
+<table width="100%"  height="80"border="1" style="position:absolute; margin-left: -7px; ">
+  <tbody>
+    <tr>
+    	<td>
+     <div id="inc">
+    <div id="circle"><p id="butdoi">Obiceiuri</p></div>
+    <div id="circle1"><p id="buttrei">Despre</p></div>
+     <div id="circle2"><p id="butunu"><a href="index1.html">Acasa</a></p></div>
+    <div id="circle3"><p id="butdoi"><a href="dictionar.html">Dictionar</a></p></div>
+    <div id="circle4"><p id="butunu">Poze</p></div>
+    
+    </div>
+    
+     </td>
+     </tr>
+  </tbody>
+</table>
+
+<table width="900px;"height="625px;" border=0px" style="margin: 0px auto;">
+<tr>
+	<td>
+		<div id="text1">
+			<h2  style="color: red;margin-top: -2px; cursor: pointer;">
+				<pre>
+          Bistra Mureşului
+	            </pre>
+		    </h2>
+			<pre id="unu">Numele Bistra provine de la râul de munte Bistra
+ care are un debit mare la vărsare şi care, prin 
+ corespondentul adjectivului slav bâstro (repede), 
+ dă denumirea locului aflat la ieşirea din Defileul 
+ Deda-Topliţa 2 (Anexa 2 a)
+Denumirea este cu atât mai verosimilă, cu cât în 
+imediata vecinătate se află localitatea Topliţa, 
+a cărei denumire provine de la adjectivul toplâi 
+– cald.
+Deşi atestată relativ târziu – în anul 1927, 
+sub această denumire, toponimele existente 
+în zonă, „Cetăţeaua”, „Cetate”, „După Cetate”
+– locuri aflate la 3-4 km de şoseaua naţională,
+în amonte de Valea Bistriţei – localitatea 
+Bistra Mureşului pare 
+ să fie un posibil loc de supraveghere
+   a ieşirii din defileul Deda 
+     – Topliţa, încă de pe vremea romană2"{ană2
+           </pre> 
+        </div>
+	
+	</td>
+	<td><div id="poze1" > <img src="p1.JPG" />   </div>
+	<div id="poze2"> <img src="p2.jpg" >   </div> 
+	<div id="poze3"> <img src="p3.jpg" >   </div> </td>
+</tr>	
+</table>
+</body>
+</html>
